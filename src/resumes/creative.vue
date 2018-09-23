@@ -209,7 +209,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: rgb(0, 75, 94);
 
 .resume {
   display: flex;
@@ -429,7 +429,7 @@ a {
 }
 
 .section-content__text--light {
-  color: rgba(0,0,0,0.42);
+  color: #3b3b3b;
   font-weight: 300;
 }
 

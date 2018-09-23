@@ -14,44 +14,22 @@ birth:
   location: Brasília
 
 experience:
-<<<<<<< 2f4df295307c5b8a1a549fb3e87596909c65d834
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
-
-education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
-=======
 - company: LAPPIS - Laboratório Avançado de Pesquisa, Produção e Inovação em Software
   position: Estagiário
-  timeperiod: Julho de 2017 - Hoje
+  timeperiod: Julho de 2017 - Setembro de 2018
   description: Trabalhando na manutenção, desenvolvimento e evolução do portal
     da FGA e o seu core - o software livre Noosfero.
+
+- company: LAPPIS - Laboratório Avançado de Pesquisa, Produção e Inovação em Software
+  position: Estagiário
+  timeperiod: Setembro de 2018 - Hoje
+  description: Integrante da equipe de desenvolvimento do projeto de Geração Distribuida
+    No Campus da UnB Integrado a Rede e Distribuição da CEB.
 
 education:
 - degree: Graduando
   timeperiod: Março de 2015 - Hoje
   description: Estudante de Engenharia de Software na Universidade de Brasília
->>>>>>> resume mk.II pt-br
 
 # skill level goes 0 to 100
 skills:
@@ -62,41 +40,59 @@ skills:
 - name: JavaScript & JQuery
   level: 61
 - name: Vue.js
-  level: 40
+  level: 55
 - name: Angular 5
   level: 55
 - name: Python & Django
-  level: 22
+  level: 42
 - name: Git
   level: 90
 - name: Docker
-  level: 55
+  level: 65
 - name: Scrum, XP and KanBan
   level: 72
 - name: Inglês
   level: 90
 
-knowledge:
+knowledge: quero
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Escola X
+  platform: Ruby on Rails
+  description: Plataforma de gerênciamento escolar
+  url: https://github.com/fga-eps-mds/2017.1-Escola-X
+
+- name: commit-helper
+  platform: Python
+  description: Script que auxilia na geração de commits seguindo convenções
+  url: https://github.com/andre-filho/commit-helper
+
+# - name: Observ / Tropical Hazards BI
+#   platform: Django REST, Vue.js, Mongo, Metabase
+#   description: Plataforma de criação, manipulação e cruzamento de dados diversos
+#   url: https://github.com/fga-eps-mds/2018.1-TropicalHazards-BI
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Airsoft
+  iconClass: fa fa-crosshairs
   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Noosfero
+  description: Noosfero é uma plataforma de criação de redes sociais
+  url: https://github.com/noosfero/noosfero
+
+- name: Rails Br
+  description: Tradução da documentação do framework Ruby on Rails
+  url: https://github.com/rails-br/rails
+
+# - name: best-resume-ever
+#   description: Build fast and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: andre-filho@protonmail.com
