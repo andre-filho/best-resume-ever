@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  best-resume-ever:
+    container_name: bestresumeever
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/best-resume-ever
+      - ./node_modules:/best-resume-ever/node_modules/

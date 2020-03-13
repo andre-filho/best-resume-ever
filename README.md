@@ -45,6 +45,10 @@
 
 ## How to use
 
+There are two ways of running this project, you can run the project locally or using Docker.
+
+### Running locally:
+
 best-resume-ever requires at least node v.8.5.0.
 
 1. Clone this repository.
@@ -57,6 +61,40 @@ best-resume-ever requires at least node v.8.5.0.
 
 5. Export with `npm run export`.
 
+All resumes will be exported to the `pdf/` folder.
+<br>
+
+### Running with Docker environment:
+
+To run best-resume-ever with docker, you must have `docker` and `docker-compose` utilities previously installed. If you don't, see the [docker](https://docs.docker.com/install/) and the [docker-compose](https://docs.docker.com/compose/install/) installation guides to properly configure your docker environment for this and other projects.
+
+Remember to add `sudo` before the following commands if your docker and docker-compose commands need it.
+
+To build the image, you can do it with:
+
+```bash
+  # If you don't have this project's image beforehand, running 'docker-compose up' will build it automatically.
+  $ docker-compose build
+
+  # or with makefile
+  $ make docker-build
+```
+
+To run the resume preview, run:
+```bash
+  $ docker-compose up
+
+  # or with makefile
+  $ make docker-run
+```
+
+To export the resumes, run:
+```bash
+  $ docker-compose run best-resume-ever npm run export
+
+  # or with makefile
+  $ make docker-export
+```
 
 All resumes will be exported to the `pdf/` folder.
 
